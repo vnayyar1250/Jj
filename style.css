@@ -1,0 +1,29 @@
+.chat-container { 
+    height: calc(100vh - 160px); 
+}
+
+.user-msg { 
+    background-color: #4f46e5; 
+    color: white; 
+    border-radius: 18px 18px 0 18px; 
+}
+
+.ai-msg { 
+    background-color: #f3f4f6; 
+    color: #1f2937; 
+    border-radius: 18px 18px 18px 0; 
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { 
+    width: 6px; 
+}
+
+::-webkit-scrollbar-thumb { 
+    background: #d1d5db; 
+    border-radius: 10px; 
+}
+
+#emoji-picker { 
+    display: none; 
+}
