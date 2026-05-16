@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 // CONFIGURATION
 // Warning: Hardcoding API keys in frontend code is not secure for production.
-const API_KEY = "AIzaSyCEIHgrIVLLtpDvsiHyDKtq3cvs7KiOER8"; 
+const API_KEY = "AIzaSyALQrBXS3CkYKldxWjFMWG6o_iXFjRGBCU"; 
 const MODEL_NAME = "gemini-2.5-flash"; 
 
 const genAI = new GoogleGenerativeAI(API_KEY);
